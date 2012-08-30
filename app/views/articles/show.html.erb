@@ -1,5 +1,6 @@
 <h1><%= @article.title %></h1>
 <p>Tags: <%= tag_links(@article.tags) %></p><br />
+<p><%= image_tag @article.image.url %></p><br />
 <p><%= @article.body %></p>
 <br />
 
